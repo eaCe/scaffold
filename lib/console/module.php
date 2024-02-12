@@ -129,7 +129,6 @@ class module extends rex_console_command
         $output->writeln('<info>Generated module "' . $moduleName . '" with key "' . $moduleKey . '"</info>');
         $output->writeln('<error>Actually, nothing was generated. This is just a dummy command. The module generation is not implemented yet. ¯\_(ツ)_/¯</error>');
 
-
         return Command::SUCCESS;
     }
 }

@@ -1,3 +1,3 @@
 <?php
 
-/** @var \rex_addon $this */
+/** @var rex_addon $this */
