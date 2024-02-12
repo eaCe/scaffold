@@ -1,0 +1,26 @@
+package: scaffold
+version: "0.0.1-dev"
+name: Scaffold
+author: eaCe
+supportpage: https://github.com/eace/scaffold
+
+requires:
+    redaxo: ^5.12.0
+    php:
+        version: '>=8.0'
+
+console_commands:
+    scaffold:module: module
+
+installer_ignore:
+    - node_modules
+    - .git
+    - .gitignore
+    - .github
+    - package.json
+    - yarn.lock
+    - resources
+    - .editorconfig
+    - .eslintrc.js
+    - .stylelintrc.js
+    - vendor
